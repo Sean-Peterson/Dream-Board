@@ -1,0 +1,11 @@
+<div class="dreams-solo" *ngFor="let post of posts">
+    <h2>{{post.title}}</h2>
+    <img src="{{post.image}}">
+    <p>
+      {{post.why}}
+    </p>
+</div>
+<button (click)="formShow()">Edit</button>
+<div class="" *ngIf="form">
+  <app-edit-post [posts]="posts" (clickSender)="formHide()"></app-edit-post>
+</div>

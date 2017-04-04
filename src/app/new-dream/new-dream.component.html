@@ -1,0 +1,27 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Conjure a Dream</h3>
+  </div>
+  <div class="panel-body">
+    <div>
+      <div>
+        <label>Dream:</label>
+        <br>
+        <input class='form-control' #newTitle>
+      </div>
+
+      <div>
+        <label> Add an Image:</label>
+        <br>
+        <input class='form-control' #newImage>
+      </div>
+
+      <div>
+        <label>Why this dream?</label>
+        <br>
+        <input class='form-control' #newWhy>
+      </div>
+      <button (click)="submitForm(newTitle.value, newImage.value, newWhy.value); newTitle.value=''; newImage.value=''; newWhy.value=''">Dream</button>
+    </div>
+  </div>
+</div>
