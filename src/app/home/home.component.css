@@ -7,8 +7,8 @@
   padding-left: 2vh;
   padding-right: 2vh;
   box-shadow: -5px 5px 20px rgba(50, 50, 50, 1);
-  max-width: 37vw;
-  max-height: 30vh;
+  min-width: 32vw;
+  min-height: 30vh;
 }
 
 img {
