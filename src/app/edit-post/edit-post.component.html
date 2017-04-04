@@ -1,18 +1,22 @@
-<div *ngFor="let post of posts">
-  <h4>Edit Dream</h4>
+<div *ngFor="let post of posts" class="edit-form panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">Edit Dream</h4>
+  </div>
+  <div class="panel-body">
 
-  <label>Title:</label>
+  <label>Dream:</label>
   <input class="form-control" [(ngModel)]="post.title">
   <br>
 
-  <label>Image:</label>
+  <label>Dream Image url:</label>
   <input class="form-control" [(ngModel)]="post.image">
   <br>
 
-  <label>Change why?:</label>
+  <label>Change why?</label>
   <input class="form-control" [(ngModel)]="post.why">
   <br>
-  <button (click)="submitUpdate(post)">Update</button>
-  <button (click)="beginDeletingPost(post)">Delete</button>
+  <button class='btn' (click)="submitUpdate(post)">Update</button>
+  <button class='btn' (click)="beginDeletingPost(post)">Delete</button>
+</div>
 
 </div>

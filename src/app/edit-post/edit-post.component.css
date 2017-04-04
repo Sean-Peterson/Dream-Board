@@ -1,0 +1,16 @@
+.edit-form {
+  margin-top: 2vh;
+  margin-right: 6vw;
+}
+
+.panel-heading {
+  background-color: rgba(200, 120, 50, 0.5);
+}
+
+.panel-body {
+  background-color: rgba(200, 120, 50, 0.5);
+}
+
+input {
+  background-color: rgba(200, 120, 50, 0.5);
+}

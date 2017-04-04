@@ -1,0 +1,26 @@
+.dreams {
+  background-color: linen;
+  display: inline-block;
+  margin-right: 6vw;
+  margin-bottom: 3vh;
+  padding-top: 3vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  box-shadow: -5px 5px 20px rgba(50, 50, 50, 1);
+  max-width: 37vw;
+  max-height: 30vh;
+}
+
+img {
+  width: 30vw;
+  height: 20vh;
+}
+
+p {
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 30vw;
+  display: block;
+  overflow: hidden
+}

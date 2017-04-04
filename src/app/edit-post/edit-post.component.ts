@@ -23,6 +23,7 @@ export class EditPostComponent implements OnInit {
   submitUpdate(postToUpdate) {
     this.postService.updatePost(postToUpdate);
     this.clickSender.emit();
+    this.router.navigateByUrl('/');
   }
 
   beginDeletingPost(postToDelete){

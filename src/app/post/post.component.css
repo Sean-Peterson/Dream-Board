@@ -1,0 +1,32 @@
+.dreams-solo {
+  background-color: linen;
+  display: inline-block;
+  margin-left: 10vw;
+  padding-top: 2vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-bottom: 60vh;
+  box-shadow: -5px 5px 20px rgba(50, 50, 50, 1);
+  width: 63vw;
+  height: 50vh;
+}
+
+img {
+  width: 60vw;
+  height: 40vh;
+}
+
+p {
+  font-size: 30px;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 30vw;
+  display: block;
+  overflow: hidden
+}
+
+button {
+  margin-top: 5vh;
+  margin-bottom: 1vh;
+}

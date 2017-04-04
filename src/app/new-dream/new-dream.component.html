@@ -1,4 +1,4 @@
-<div class="panel panel-default">
+<div class="new-dream panel panel-default">
   <div class="panel-heading">
     <h3 class="panel-title">Conjure a Dream</h3>
   </div>
@@ -11,7 +11,7 @@
       </div>
 
       <div>
-        <label> Add an Image:</label>
+        <label> Dream Image url:</label>
         <br>
         <input class='form-control' #newImage>
       </div>
@@ -21,7 +21,8 @@
         <br>
         <input class='form-control' #newWhy>
       </div>
-      <button (click)="submitForm(newTitle.value, newImage.value, newWhy.value); newTitle.value=''; newImage.value=''; newWhy.value=''">Dream</button>
+      <br>
+      <button class='btn' (click)="submitForm(newTitle.value, newImage.value, newWhy.value); newTitle.value=''; newImage.value=''; newWhy.value=''">Dream</button>
     </div>
   </div>
 </div>
