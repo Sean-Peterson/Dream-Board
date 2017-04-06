@@ -7,7 +7,7 @@
   padding-top: 6vh;
 }
 
-#title {
+#title-img {
   margin-top: 10px;
   height: 20vh;
   width: 40vh;
@@ -27,7 +27,18 @@
 
 @media only screen and (max-width: 735px) {
   .title {
-    margin-left: 0px;
+    width: 70vw;
+    margin-left: 15vw;
+    margin-bottom: 1vh;
+  }
+
+  #title-img {
+    width: 70vw;
+    margin-left: 15vw;
+    margin-bottom: 1vh;
+  }
+
+  #new-dream-link {
     width: 70vw;
     margin-left: 15vw;
     margin-bottom: 1vh;

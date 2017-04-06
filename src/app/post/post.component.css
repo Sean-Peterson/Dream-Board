@@ -5,10 +5,10 @@
   padding-top: 2vh;
   padding-left: 2vh;
   padding-right: 2vh;
-  padding-bottom: 60vh;
+  margin-bottom: 10vh;
   box-shadow: -5px 5px 20px rgba(50, 50, 50, 1);
-  width: 63vw;
-  height: 50vh;
+  min-width: 63vw;
+  min-height: 50vh;
 }
 
 img {
@@ -25,6 +25,29 @@ p {
 }
 
 button {
-  margin-top: 5vh;
+  margin-top: 1vh;
   margin-bottom: 1vh;
+}
+
+@media only screen and (max-width: 735px) {
+  .dreams-solo {
+    min-width: 64vw;
+    min-height: 30vh;
+    margin-left: 0px;
+    padding-bottom: 0px;
+  }
+
+  img {
+    width: 60vw;
+    height: 20vh;
+  }
+
+  h2 {
+    font-size: 14px;
+    max-width: 60vw;
+  }
+  p {
+    font-size: 12px;
+    max-width: 60vw;
+  }
 }
