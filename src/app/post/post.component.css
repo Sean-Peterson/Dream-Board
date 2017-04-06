@@ -42,12 +42,12 @@ button {
     height: 20vh;
   }
 
-  h2 {
-    font-size: 14px;
+  h1 {
+    font-size: 24px;
     max-width: 60vw;
   }
   p {
-    font-size: 12px;
+    font-size: 14px;
     max-width: 60vw;
   }
 }
