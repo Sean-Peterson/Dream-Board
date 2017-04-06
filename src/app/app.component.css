@@ -24,3 +24,12 @@
   box-shadow: -5px 5px 20px rgba(50, 50, 50, 1);
 
 }
+
+@media only screen and (max-width: 735px) {
+  .title {
+    margin-left: 0px;
+    width: 70vw;
+    margin-left: 15vw;
+    margin-bottom: 1vh;
+  }
+}

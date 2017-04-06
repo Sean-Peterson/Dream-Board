@@ -1,14 +1,15 @@
 <div class="all">
-  <div class="nav-bar">
-     <img id='title' routerLink='' src="https://anjalipaiblog.files.wordpress.com/2015/08/dream-big.jpg"/>
-    <a routerLink='new-dream'><img id='new-dream-link' src="http://www.incourage.me/wp/wp-content/uploads/2015/03/may-we.png"/></a>
-    <br>
+    <p (click)="login()">Login With Google</p>
+
+    <p (click)="logout()">Logout</p>
     <div *ngIf="isLoggedIn">
-        <p>Logged In: {{user_displayName}} ({{user_email}})<p>
-      </div>
-    <div class="logout">
-      <p><button class="btn btn-default" (click)="logout()">Logout</button></p>
+      <p>Logged In: {{user_displayName}} ({{user_email}})<p>
     </div>
+
+  <div class="nav-bar">
+     <img class='title' id='title' routerLink='' src="https://anjalipaiblog.files.wordpress.com/2015/08/dream-big.jpg"/>
+    <img class='title' id='new-dream-link' routerLink='new-dream' src="http://www.incourage.me/wp/wp-content/uploads/2015/03/may-we.png"/>
+    <br>
   </div>
   <div class="display">
     <router-outlet></router-outlet>

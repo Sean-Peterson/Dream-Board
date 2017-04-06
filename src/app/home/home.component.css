@@ -20,7 +20,37 @@ p {
   text-align: center;
   white-space: nowrap;
   text-overflow: ellipsis;
-  width: 30vw;
+  max-width: 30vw;
   display: block;
   overflow: hidden
+}
+
+h2 {
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 30vw;
+  display: block;
+  overflow: hidden
+}
+
+@media only screen and (max-width: 735px) {
+  .dreams {
+    min-width: 64vw;
+    min-height: 30vh;
+  }
+
+  img {
+    width: 60vw;
+    height: 20vh;
+  }
+
+  h2 {
+    font-size: 14px;
+    max-width: 60vw;
+  }
+  p {
+    font-size: 12px;
+    max-width: 60vw;
+  }
 }
