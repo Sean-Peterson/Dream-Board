@@ -1,6 +1,6 @@
 {
   "rules": {
     ".read": true,
-    ".write": "auth.email === 'seanpeterson11@gmail.com || auth.email === mmikulaschek@gmail.com'"
+    ".write": "auth.email === 'seanpeterson11@gmail.com' || auth.email === 'mmikulaschek@gmail.com'"
   }
 }
