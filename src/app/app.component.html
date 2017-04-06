@@ -2,6 +2,13 @@
   <div class="nav-bar">
      <img id='title' routerLink='' src="https://anjalipaiblog.files.wordpress.com/2015/08/dream-big.jpg"/>
     <a routerLink='new-dream'><img id='new-dream-link' src="http://www.incourage.me/wp/wp-content/uploads/2015/03/may-we.png"/></a>
+    <br>
+    <div *ngIf="isLoggedIn">
+        <p>Logged In: {{user_displayName}} ({{user_email}})<p>
+      </div>
+    <div class="logout">
+      <p><button class="btn btn-default" (click)="logout()">Logout</button></p>
+    </div>
   </div>
   <div class="display">
     <router-outlet></router-outlet>

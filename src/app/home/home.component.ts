@@ -3,6 +3,7 @@ import { Post } from '../post.model';
 import { PostService } from '../post.service';
 import { Router } from '@angular/router';
 import { AngularFire, FirebaseListObservable } from 'angularfire2';
+import { AuthService } from '../providers/auth.service';
 
 
 @Component({
@@ -23,4 +24,5 @@ export class HomeComponent implements OnInit {
   goToDetailPage(clickedAlbum) {
     this.router.navigate(['post', clickedAlbum.$key]);
   }
+
 }
