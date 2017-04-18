@@ -12,9 +12,13 @@ export class LoginPageComponent implements OnInit {
 
   constructor(public authService: AuthService, private router:Router) { }
 
+  login() {
+    this.authService.loginWithGoogle();
+  }
+
   ngOnInit() {
   }
 
-  
+
 
 }

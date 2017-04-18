@@ -8,7 +8,7 @@ import { AuthService } from './providers/auth.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  private isLoggedIn: Boolean;
+  public isLoggedIn: Boolean;
   private user_displayName: String;
   private user_email: String;
 

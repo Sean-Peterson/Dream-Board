@@ -21,8 +21,21 @@
         <br>
         <input class='form-control' #newWhy>
       </div>
+
+      <div>
+        <label>Which country is this in?</label>
+        <br>
+        <select class='form-control' #newCountry>
+          <option value="Thailand">Thailand</option>
+          <option value="Cambodia">Cambodia</option>
+          <option value="Vietnam">Vietnam</option>
+          <option value="Laos">Laos</option>
+          <option value="Indonesia">Indonesia</option>
+          <option value="India">India</option>
+        </select>
+      </div>
       <br>
-      <button class='btn' (click)="submitForm(newTitle.value, newImage.value, newWhy.value); newTitle.value=''; newImage.value=''; newWhy.value=''">Dream</button>
+      <button class='btn' (click)="submitForm(newTitle.value, newImage.value, newWhy.value, newCountry.value); newTitle.value=''; newImage.value=''; newWhy.value=''; newCountry.value=''">Dream</button>
     </div>
   </div>
 </div>

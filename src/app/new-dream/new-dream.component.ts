@@ -17,8 +17,8 @@ export class NewDreamComponent implements OnInit {
   ngOnInit() {
   }
 
-  submitForm(title: string, image: string, why: string) {
-    var newPost: Post = new Post(title, image, why);
+  submitForm(title: string, image: string, why: string, country: string) {
+    var newPost: Post = new Post(title, image, why, country);
     this.postService.addPost(newPost);
     this.router.navigateByUrl('/');
   }

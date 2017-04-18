@@ -29,7 +29,8 @@ export class PostService {
     postEntryInFirebase.update({
       title: localUpdatedPost.title,
       image: localUpdatedPost.image,
-      why: localUpdatedPost.why
+      why: localUpdatedPost.why,
+      country: localUpdatedPost.country
     });
 
   }

@@ -4,6 +4,8 @@
   </div>
   <div class="panel-body">
 
+    <h1>{{post.country}} works?</h1>
+
   <label>Dream:</label>
   <input class="form-control" [(ngModel)]="post.title">
   <br>
@@ -12,8 +14,19 @@
   <input class="form-control" [(ngModel)]="post.image">
   <br>
 
-  <label>Change why?</label>
+  <label>Change Why?</label>
   <input class="form-control" [(ngModel)]="post.why">
+  <br>
+
+  <label>Change Country?</label>
+  <select class='form-control' [(ngModel)]="post.country">
+    <option value="Thailand">Thailand</option>
+    <option value="Cambodia">Cambodia</option>
+    <option value="Vietnam">Vietnam</option>
+    <option value="Laos">Laos</option>
+    <option value="Indonesia">Indonesia</option>
+    <option value="India">India</option>
+  </select>
   <br>
   <button class='btn' (click)="submitUpdate(post)">Update</button>
   <button class='btn' (click)="beginDeletingPost(post)">Delete</button>

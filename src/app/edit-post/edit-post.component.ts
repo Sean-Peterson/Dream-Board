@@ -1,6 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { PostService } from '../post.service';
 import { Router } from '@angular/router';
+import { Post } from './../post.model';
 
 
 @Component({
@@ -32,5 +33,7 @@ export class EditPostComponent implements OnInit {
     }
     this.router.navigateByUrl('/');
   }
+
+
 
 }
