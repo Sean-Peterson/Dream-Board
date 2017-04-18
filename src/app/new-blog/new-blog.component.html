@@ -1,0 +1,43 @@
+<div class="new-dream panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Tell your story</h3>
+  </div>
+  <div class="panel-body">
+    <div>
+      <div>
+        <label>Title:</label>
+        <br>
+        <input class='form-control' #newTitle>
+      </div>
+
+
+      <div>
+        <label>Tell your tale</label>
+        <br>
+        <input class='form-control' #newContent>
+      </div>
+
+      <div>
+        <label>Which country is this in?</label>
+        <br>
+        <select class='form-control' #newCountry>
+          <option value="Thailand">Thailand</option>
+          <option value="Cambodia">Cambodia</option>
+          <option value="Vietnam">Vietnam</option>
+          <option value="Laos">Laos</option>
+          <option value="Indonesia">Indonesia</option>
+          <option value="India">India</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Blog Image url:</label>
+        <br>
+        <input class='form-control' #newImage>
+      </div>
+
+      <br>
+      <button class='btn' (click)="submitForm(newTitle.value, newImage.value, newContent.value, newCountry.value); newTitle.value=''; newImage.value=''; newContent.value=''; newCountry.value=''">Blog</button>
+    </div>
+  </div>
+</div>
