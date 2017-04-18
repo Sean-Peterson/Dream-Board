@@ -25,6 +25,10 @@
 
 }
 
+p {
+  background-color: white;
+}
+
 @media only screen and (max-width: 735px) {
   .title {
     width: 70vw;
