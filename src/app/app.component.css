@@ -4,35 +4,31 @@
 }
 
 .nav-bar {
-  padding-top: 6vh;
+  margin-left: 7vw;
 }
 
 #title-img {
-  margin-top: 10px;
-  height: 20vh;
-  width: 40vh;
-  margin-left: 14vw;
+  height: 30vh;
+  width: 22vw;
+  margin-left: 18vw;
   box-shadow: -5px 5px 20px rgba(50, 50, 50, 1);
 }
 
-#title-img:hover {
+#title-img:hover, #new-dream-link:hover {
   cursor: pointer;
 }
 
 #new-dream-link {
-  margin-top: 10px;
-  height: 18vh;
-  width: 30vh;
-  margin-left: 12vw;
+  margin-top: 95px;
+  height: 28vh;
+  width: 20vw;
+  margin-left: 2vw;
   box-shadow: -5px 5px 20px rgba(50, 50, 50, 1);
 }
 
-#new-dream-link:hover {
-  cursor: pointer;
-}
-
-p {
-  background-color: white;
+.pin {
+  height: 50px;
+  width: 70px;
 }
 
 @media only screen and (max-width: 735px) {

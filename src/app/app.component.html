@@ -1,16 +1,11 @@
 <div class="all">
-    <p (click)="login()">Login With Google</p>
-
-    <p (click)="logout()">Logout</p>
-    <div *ngIf="isLoggedIn">
-      <p>Logged In: {{user_displayName}} ({{user_email}})<p>
-    </div>
+<img class='pin' (click)="login()" src="http://4vector.com/i/free-vector-thumb-tack-clip-art_117137_Thumb_Tack_clip_art_hight.png">
+<img class='pin' (click)="logout()" src="http://images.clipartnet.com/thumbtack-clipart-thumbtack-pushpin-vector-clip-art-600x454_9994d4.png">
 
   <div class="nav-bar">
-     <img class='title' id='title-img' routerLink='' src="https://anjalipaiblog.files.wordpress.com/2015/08/dream-big.jpg"/>
+     <img class='title' id='title-img' routerLink='' src="https://img1.etsystatic.com/039/0/8508102/il_340x270.634936629_gxf2.jpg"/>
     <img class='title' id='new-dream-link' routerLink='new-dream' src="http://www.lindseynobles.com/wp-content/uploads/2012/04/iStock_000011759967Small.jpg"/>
     <br>
-    <h1 routerLink='new-blog'>banana</h1>
   </div>
   <div class="display">
     <router-outlet></router-outlet>
