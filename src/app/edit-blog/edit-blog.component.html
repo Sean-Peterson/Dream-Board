@@ -1,0 +1,35 @@
+<div *ngFor="let blog of blogs" class="edit-form panel panel-default">
+  <div class="panel-heading">
+    <h4 class="panel-title">Edit Blog</h4>
+  </div>
+  <div class="panel-body">
+
+    <h1>{{blog.country}} works?</h1>
+
+  <label>Dream:</label>
+  <input class="form-control" [(ngModel)]="blog.title">
+  <br>
+
+  <label>Dream Image url:</label>
+  <input class="form-control" [(ngModel)]="blog.image">
+  <br>
+
+  <label>Change Why?</label>
+  <input class="form-control" [(ngModel)]="blog.content">
+  <br>
+
+  <label>Change Country?</label>
+  <select class='form-control' [(ngModel)]="blog.country">
+    <option value="Thailand">Thailand</option>
+    <option value="Cambodia">Cambodia</option>
+    <option value="Vietnam">Vietnam</option>
+    <option value="Laos">Laos</option>
+    <option value="Indonesia">Indonesia</option>
+    <option value="India">India</option>
+  </select>
+  <br>
+  <button class='btn' (click)="submitUpdate(blog)">Update</button>
+  <button class='btn' (click)="beginDeletingPost(blog)">Delete</button>
+</div>
+
+</div>

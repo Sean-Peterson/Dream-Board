@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { NewDreamComponent } from './new-dream/new-dream.component';
 import { NewBlogComponent } from './new-blog/new-blog.component';
 import { PostComponent } from './post/post.component';
+import { BlogComponent } from './blog/blog.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 
 const appRoutes: Routes = [
@@ -28,6 +29,10 @@ const appRoutes: Routes = [
   {
     path: 'post/:id',
     component: PostComponent
+  },
+  {
+    path: 'blog/:id',
+    component: BlogComponent
   }
 ];
 

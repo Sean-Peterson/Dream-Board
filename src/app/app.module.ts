@@ -15,6 +15,8 @@ import { PostComponent } from './post/post.component';
 import { EditPostComponent } from './edit-post/edit-post.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { NewBlogComponent } from './new-blog/new-blog.component';
+import { BlogComponent } from './blog/blog.component';
+import { EditBlogComponent } from './edit-blog/edit-blog.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -31,7 +33,9 @@ export const firebaseConfig = {
     PostComponent,
     EditPostComponent,
     LoginPageComponent,
-    NewBlogComponent
+    NewBlogComponent,
+    BlogComponent,
+    EditBlogComponent
   ],
   imports: [
     BrowserModule,
