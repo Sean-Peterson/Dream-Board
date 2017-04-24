@@ -1,15 +1,25 @@
-<div class="dreams" (click)="goToDetailPage(post)" *ngFor="let post of posts | async | countryDream:desiredCountry">
-  <img src="{{post.image}}">
-  <h3>{{post.title}}</h3>
-  <p>
-    {{post.why}}
-  </p>
+<img class='title' id='title-img' routerLink='' (click)='changePipe("all")' src="https://img1.etsystatic.com/039/0/8508102/il_340x270.634936629_gxf2.jpg"/>
+<div class="images">
+  <img class='flag' id='india' (click)='changePipe("india")' src="https://static.webshopapp.com/shops/094414/files/054025092/india-flag-vector-free-download.jpg"/>
+  <img class='flag' id='thailand' (click)='changePipe("thailand")' src="https://static.webshopapp.com/shops/094414/files/054946872/thailand-flag-vector-free-download.jpg"/>
+  <img class='flag' id='cambodia' (click)='changePipe("cambodia")' src="http://flaglane.com/download/cambodian-flag/cambodian-flag-large.jpg"/>
+  <img class='flag' id='vietnam' (click)='changePipe("vietnam")' src="http://flaglane.com/download/vietnamese-flag/vietnamese-flag-large.jpg"/>
+  <img class='flag' id='laos' (click)='changePipe("laos")' src="http://flaglane.com/download/laotian-flag/laotian-flag-large.gif"/>
+  <img class='flag' id='indonesia' (click)='changePipe("indonesia")' src="https://static.webshopapp.com/shops/094414/files/054029268/indonesia-flag-vector-free-download.jpg"/>
 </div>
 <br>
-    <img class='title' id='new-blog-link' routerLink='new-blog' src="http://www.greenbookblog.org/wp-content/uploads/2016/02/fb.jpg"/>
-<br>
-<div class="blogs" (click)="goToBlogPage(blog)" *ngFor="let blog of blogs | async | countryBlog: desiredCountry">
-  <img src="{{blog.image}}">
-  <h2>{{blog.title}}</h2>
-  <p>{{blog.content}}</p>
+<div class="display">
+  <div class="dreams" (click)="goToDetailPage(post)" *ngFor="let post of posts | async | countryDream:desiredCountry">
+    <img src="{{post.image}}">
+    <h3>{{post.title}}</h3>
+    <p>
+      {{post.why}}
+    </p>
+  </div>
+  <br>
+  <div class="blogs" (click)="goToBlogPage(blog)" *ngFor="let blog of blogs | async | countryBlog: desiredCountry">
+    <img src="{{blog.image}}">
+    <h2>{{blog.title}}</h2>
+    <p>{{blog.content}}</p>
+  </div>
 </div>

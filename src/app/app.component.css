@@ -1,28 +1,6 @@
-.display{
-  margin-top: 6vh;
-  margin-left: 15vw;
-}
-
-.nav-bar {
-  margin-left: 7vw;
-}
-
-#title-img {
-  height: 30vh;
-  width: 22vw;
-  margin-left: 18vw;
-  box-shadow: -5px 5px 20px rgba(50, 50, 50, 1);
-}
-
-#title-img:hover, #new-dream-link:hover {
-  cursor: pointer;
-}
-
-#new-dream-link {
-  margin-top: 95px;
-  height: 28vh;
-  width: 20vw;
-  margin-left: 2vw;
+.flag {
+  height: 20vh;
+  width: 15vw;
   box-shadow: -5px 5px 20px rgba(50, 50, 50, 1);
 }
 
@@ -39,13 +17,6 @@
   }
 
   #title-img {
-    width: 70vw;
-    height: 30vh;
-    margin-left: 15vw;
-    margin-bottom: 1vh;
-  }
-
-  #new-dream-link {
     width: 70vw;
     height: 30vh;
     margin-left: 15vw;

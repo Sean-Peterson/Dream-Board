@@ -34,5 +34,9 @@ export class HomeComponent implements OnInit {
     this.router.navigate(['blog', clickedBlog.$key]);
   }
 
+  changePipe(country) {
+    this.desiredCountry = country;
+  }
+
 
 }
