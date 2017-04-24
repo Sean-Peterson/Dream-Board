@@ -17,6 +17,8 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { NewBlogComponent } from './new-blog/new-blog.component';
 import { BlogComponent } from './blog/blog.component';
 import { EditBlogComponent } from './edit-blog/edit-blog.component';
+import { CountryDreamPipe } from './country-dream.pipe';
+import { CountryBlogPipe } from './country-blog.pipe';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -35,7 +37,9 @@ export const firebaseConfig = {
     LoginPageComponent,
     NewBlogComponent,
     BlogComponent,
-    EditBlogComponent
+    EditBlogComponent,
+    CountryDreamPipe,
+    CountryBlogPipe
   ],
   imports: [
     BrowserModule,

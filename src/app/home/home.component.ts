@@ -19,6 +19,7 @@ export class HomeComponent implements OnInit {
 
   posts: FirebaseListObservable<any[]>;
   blogs: FirebaseListObservable<any[]>;
+  desiredCountry: string = 'all'
 
   ngOnInit() {
     this.posts = this.postService.getPosts()
@@ -32,5 +33,6 @@ export class HomeComponent implements OnInit {
   goToBlogPage(clickedBlog) {
     this.router.navigate(['blog', clickedBlog.$key]);
   }
+
 
 }
