@@ -1,4 +1,15 @@
-<img class='title' id='title-img' routerLink='' (click)='changePipe("all")' src="https://img1.etsystatic.com/039/0/8508102/il_340x270.634936629_gxf2.jpg"/>
+<div class="morgan-sean">
+  <img class='title' id='title-img' routerLink='' (click)='toggleAll()' src="https://img1.etsystatic.com/039/0/8508102/il_340x270.634936629_gxf2.jpg"/>
+  <img class="sm-img" id='sm-1' src="/../assets/sm1.png">
+  <img class="sm-img" id='sm-2' src="/../assets/sm2.png">
+  <img class="sm-img" id='sm-3' src="/../assets/sm3.png">
+  <img class="sm-img" id='sm-4' src="/../assets/sm7.png">
+  <img class="sm-img" id='sm-5' src="/../assets/sm5.png">
+  <!-- <img class="sm-img" id='sm-8' src="/../assets/sm7.png">
+  <img class="sm-img" id='sm-8' src="/../assets/sm8.png">
+  <img class="sm-img" id='sm-8' src="/../assets/sm9.jpg">
+  <img class="sm-img" id='sm-8' src="/../assets/sm13.jpg"> -->
+</div>
 <div class="flags">
   <img class='flag' id='india' (click)='changePipe("india")' src="https://static.webshopapp.com/shops/094414/files/054025092/india-flag-vector-free-download.jpg"/>
   <img class='flag' id='thailand' (click)='changePipe("thailand")' src="https://static.webshopapp.com/shops/094414/files/054946872/thailand-flag-vector-free-download.jpg"/>
@@ -41,6 +52,8 @@
 
 </div>
 <br>
+  <img *ngIf='desiredCountry' class="sm-img" id='sm-6' src="/../assets/sm6.png">
+  <img *ngIf='desiredCountry' class="sm-img" id='sm-7' src="/../assets/sm10.jpg">
 <div class="display">
   <div class="dreams" (click)="goToDetailPage(post)" *ngFor="let post of posts | async | countryDream:desiredCountry">
     <img src="{{post.image}}">
@@ -49,7 +62,11 @@
       {{post.why}}
     </p>
   </div>
-  <br>
+</div>
+<br>
+<img *ngIf='desiredCountry' class="sm-img" id='sm-8' src="/../assets/sm17.jpg">
+<img *ngIf='desiredCountry' class="sm-img" id='sm-9' src="/../assets/sm16.jpg">
+<div class="display">
   <div class="blogs" (click)="goToBlogPage(blog)" *ngFor="let blog of blogs | async | countryBlog: desiredCountry">
     <img src="{{blog.image}}">
     <h2>{{blog.title}}</h2>

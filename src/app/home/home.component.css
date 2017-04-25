@@ -1,12 +1,13 @@
 .display{
   margin-top: 6vh;
   margin-left: 15vw;
+  width: 80vw;
 }
 
 .dreams {
   background-color: linen;
   display: inline-block;
-  margin-right: 6vw;
+  margin-left: 2.5vw;
   margin-bottom: 3vh;
   padding-top: 3vh;
   padding-left: 2vh;
@@ -18,14 +19,13 @@
 
 .blogs {
   background-color: linen;
-  display: inline-block;
-  margin-right: 6vw;
   margin-bottom: 3vh;
+  margin-left: 2.5vw;
   padding-top: 3vh;
   padding-left: 2vh;
   padding-right: 2vh;
   box-shadow: -5px 5px 20px rgba(50, 50, 50, 1);
-  width: 70vw;
+  width: 65vw;
   min-height: 60vh;
 }
 
@@ -71,7 +71,6 @@
 .country-name {
   margin-left: .5vw;
   margin-top: 1.2vh;
-  /*background-color: white;*/
 }
 
 .flag:hover {
@@ -81,15 +80,6 @@
 .flags {
   margin-left: 2vw;
 }
-
-/*.postit {
-  height: 10vh;
-  width: 8vw;
-  margin: 0px;
-  text-align: center;
-  padding-top: 4vh;
-  padding-right: 3vw;
-}*/
 
 img {
   width: 28vw;
@@ -109,7 +99,62 @@ img {
   margin: 4px;
 }
 
+.sm-img {
+  height: 35vh;
+  width: 14vw;
+  background-color: linen;
+  display: inline-block;
+  margin-bottom: 3vh;
+  padding-top: 3vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-bottom: 6vh;
+  box-shadow: -5px 5px 20px rgba(50, 50, 50, 1);
+}
+
+#sm-1 {
+  margin-left: 1vw;
+  transform: rotate(8deg);
+}
+#sm-2 {
+  margin-top: 6vh;
+  transform: rotate(-3deg);
+}
+#sm-3 {
+  margin-bottom: 5vh;
+  transform: rotate(-2deg);
+}
+#sm-4 {
+  margin-top: 2vh;
+  transform: rotate(6deg);
+}
+#sm-5 {
+  margin-bottom: 3vh;
+  transform: rotate(-2deg);
+}
+#sm-6 {
+  transform: rotate(-2deg);
+  float: left;
+  margin-left: 1vw;
+}
+#sm-7 {
+  float: right;
+  margin-right: 1.5vw;
+  transform: rotate(5deg);
+}
+#sm-8 {
+  transform: rotate(-2deg);
+  float: left;
+  margin-left: 1vw;
+}
+#sm-9 {
+  float: right;
+  margin-right: 1.5vw;
+  transform: rotate(5deg);
+}
+
 #title-img {
+  transform: rotate(2deg);
   height: 32vh;
   width: 25vw;
   margin-top: 3vh;

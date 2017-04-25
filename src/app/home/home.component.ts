@@ -19,7 +19,8 @@ export class HomeComponent implements OnInit {
 
   posts: FirebaseListObservable<any[]>;
   blogs: FirebaseListObservable<any[]>;
-  desiredCountry: string = 'all'
+  desiredCountry: string = ''
+  toggleView: boolean = false;
 
   ngOnInit() {
     this.posts = this.postService.getPosts()
@@ -38,5 +39,14 @@ export class HomeComponent implements OnInit {
     this.desiredCountry = country;
   }
 
+  toggleAll() {
+    if(this.toggleView == false) {
+      this.desiredCountry = "all";
+      this.toggleView = true;
+    }else if(this.toggleView == true) {
+      this.desiredCountry = "";
+      this.toggleView = false;
+    }
+  }
 
 }
