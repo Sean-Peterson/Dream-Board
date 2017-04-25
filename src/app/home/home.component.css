@@ -191,11 +191,24 @@ h3, h4 {
   .sm-img {
     display: none;
   }
+  .dreams {
+    width: 50vw;
+    height: 50vh;
+    margin-left: 5vw;
+  }
+  img {
+    width: 43vw;
+    height: 30vh;
+  }
+  h3 {
+    font-size: 18px;
+  }
   p {
     font-size: 12px;
-    max-width: 60vw;
+    max-width: 70vw;
   }
   #title-img {
-    margin-left: 38vw;
+    margin-left: 28vw;
+    width: 45vw;
   }
 }
