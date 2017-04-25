@@ -3,6 +3,11 @@
   width: 70px;
 }
 
+#right {
+  float: right;
+  margin-right: 3vw;
+}
+
 @media only screen and (max-width: 735px) {
   .title {
     width: 70vw;

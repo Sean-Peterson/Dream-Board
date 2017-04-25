@@ -1,3 +1,4 @@
+<button id="home" routerLink='' type="button">Home</button>
 <div class="new-blog panel panel-default">
   <div class="panel-heading">
     <h3 class="panel-title">Tell your story</h3>
@@ -12,7 +13,7 @@
 
 
       <div>
-        <label>Tell your tale</label>
+        <label>Tell a tale</label>
         <br>
         <textarea class='form-control' #newContent rows="8" cols="80"></textarea>
       </div>
@@ -37,7 +38,7 @@
       </div>
 
       <br>
-      <button class='btn' (click)="submitForm(newTitle.value, newImage.value, newContent.value, newCountry.value); newTitle.value=''; newImage.value=''; newContent.value=''; newCountry.value=''">Blog</button>
+      <button class='btn' (click)="submitForm(newTitle.value, newImage.value, newContent.value, newCountry.value); newTitle.value=''; newImage.value=''; newContent.value=''; newCountry.value=''">Submit</button>
     </div>
   </div>
 </div>

@@ -1,15 +1,10 @@
 .new-dream {
-  margin-right: 6vw;
+  margin-top: 4vh;
+  margin-left: 5vw;
+  width: 90vw;
 }
 
-.panel-heading {
-  background-color: rgba(200, 120, 50, 0.5);
-}
-
-.panel-body {
-  background-color: rgba(200, 120, 50, 0.5);
-}
-
-input {
-  background-color: rgba(200, 120, 50, 0.5);
+#home {
+  margin-top: 8vh;
+  margin-left: 5vw;
 }

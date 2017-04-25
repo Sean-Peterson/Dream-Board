@@ -1,3 +1,10 @@
 .new-blog {
-  margin-right: 10vw;
+  margin-top: 4vh;
+  margin-left: 5vw;
+  width: 90vw;
+}
+
+#home {
+  margin-top: 8vh;
+  margin-left: 5vw;
 }
