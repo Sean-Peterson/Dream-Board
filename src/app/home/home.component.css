@@ -177,25 +177,17 @@ h3, h4 {
 }
 
 
+@media only screen and (max-width: 1010px) {
+  .dreams {
+    margin-left: 20vw;
+  }
+}
+@media only screen and (max-width: 910px) {
+  #sm-5 {
+    display: none;
+  }
+}
 @media only screen and (max-width: 735px) {
-  .dreams, .blogs {
-    min-width: 64vw;
-    min-height: 30vh;
-    margin-right: 0px;
-  }
-
-  #new-blog-link {
-    width: 70vw;
-    height: 30vh;
-    margin-left: 15vw;
-    margin-bottom: 1vh;
-  }
-
-  img {
-    width: 60vw;
-    height: 30vh;
-  }
-
   p {
     font-size: 12px;
     max-width: 60vw;

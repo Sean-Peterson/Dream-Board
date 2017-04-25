@@ -60,8 +60,6 @@
   </div>
 </div>
 <br>
-<img *ngIf='desiredCountry' class="sm-img" id='sm-8' src="/../assets/sm17.jpg">
-<img *ngIf='desiredCountry' class="sm-img" id='sm-9' src="/../assets/sm16.jpg">
 <div class="display">
   <div class="blogs" (click)="goToBlogPage(blog)" *ngFor="let blog of blogs | async | countryBlog: desiredCountry">
     <img src="{{blog.image}}">
