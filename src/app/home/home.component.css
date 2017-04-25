@@ -196,6 +196,11 @@ h3, h4 {
     height: 50vh;
     margin-left: 5vw;
   }
+  .blogs img {
+    float: none;
+    width: 60vw;
+    padding-bottom: 3vh;
+  }
   img {
     width: 43vw;
     height: 30vh;
