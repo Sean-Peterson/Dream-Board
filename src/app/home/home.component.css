@@ -130,10 +130,6 @@ img {
   width: 62vw;
   height: 20vh;
   margin-left: 21vw;
-  /*text-decoration: underline;*/
-  /*background-color: linen;*/
-  /*box-shadow: -5px 5px 20px rgba(50, 50, 50, 1);*/
-
 }
 
 #sm-1 {
@@ -239,13 +235,16 @@ h3, h4 {
     width: 45vw;
   }
   .country-name {
-  font-size: .5em;
+  font-size: .75em;
   margin-top: 0vh;
-  margin-left: 4vw;
+  margin-left: 3vw;
   }
   .postit {
     margin-top: 2vh;
     background-size: cover;
     height: 17vh;
+  }
+  #come-true {
+    height: 30vh;
   }
 }
