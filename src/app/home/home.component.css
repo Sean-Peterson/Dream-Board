@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Engagement');
+@import url('https://fonts.googleapis.com/css?family=Merienda+One');
+
 .display{
   margin-top: 6vh;
   margin-left: 15vw;
   width: 80vw;
+  font-family: 'Merienda One', cursive;
 }
 
 .dreams {
@@ -24,6 +28,7 @@
   padding-top: 3vh;
   padding-left: 2vh;
   padding-right: 2vh;
+  padding-bottom: 2vh;
   box-shadow: -5px 5px 20px rgba(50, 50, 50, 1);
   width: 65vw;
   min-height: 60vh;
@@ -49,6 +54,8 @@
 
 .postits {
   margin-left: 4vw;
+  font-family: 'Engagement', cursive;
+  font-size: 2.5em;
 }
 
 .postit {
@@ -64,14 +71,15 @@
 }
 
 .pin {
-  height: 50px;
-  width: 70px;
+  height: 5vh;
+  width: 4vw;
 }
 
 .country-name {
-  margin-left: .5vw;
+  margin-left: 1.5vw;
   margin-top: 1.2vh;
 }
+
 
 .flag:hover {
   cursor: pointer;
@@ -112,6 +120,22 @@ img {
   box-shadow: -5px 5px 20px rgba(50, 50, 50, 1);
 }
 
+#come-true {
+  text-align: center;
+  font-family: 'Engagement', cursive;
+  padding-top: 1vh;
+  font-size: 7em;
+  color: black;
+  text-shadow:  1px 1px white;
+  width: 62vw;
+  height: 20vh;
+  margin-left: 21vw;
+  /*text-decoration: underline;*/
+  /*background-color: linen;*/
+  /*box-shadow: -5px 5px 20px rgba(50, 50, 50, 1);*/
+
+}
+
 #sm-1 {
   margin-left: 1vw;
   transform: rotate(8deg);
@@ -143,14 +167,14 @@ img {
   transform: rotate(5deg);
 }
 #sm-8 {
-  transform: rotate(-2deg);
+  transform: rotate(2deg);
   float: left;
-  margin-left: 1vw;
+  margin-left: 2.5vw;
 }
 #sm-9 {
   float: right;
-  margin-right: 1.5vw;
-  transform: rotate(5deg);
+  margin-right: 2.5vw;
+  transform: rotate(-5deg);
 }
 
 #title-img {
@@ -181,8 +205,6 @@ h3, h4 {
   .dreams {
     margin-left: 20vw;
   }
-}
-@media only screen and (max-width: 910px) {
   #sm-5 {
     display: none;
   }
@@ -215,5 +237,15 @@ h3, h4 {
   #title-img {
     margin-left: 28vw;
     width: 45vw;
+  }
+  .country-name {
+  font-size: .5em;
+  margin-top: 0vh;
+  margin-left: 4vw;
+  }
+  .postit {
+    margin-top: 2vh;
+    background-size: cover;
+    height: 17vh;
   }
 }
