@@ -1,6 +1,6 @@
 # Dream Board
 
-Dream Board is a place to dream new dreams, make plans to experience them, and write about your dream experiences.
+Dream Board is a place to dream new dreams, and write about your dream experiences. I made this website so that my girlfriend and myself could keep track of what we want to do in SE Asia and India and also be able to share our blog posts with friends and family while we are there.
 
 Dream Board is hosted at [Dream Board](https://dreamboard-b5976.firebaseapp.com)
 
@@ -76,7 +76,7 @@ ng serve
     * pipe for filtering results by country
     * hook up firebase to store all of the data
     * services to grab the information from the database and inject all the information to the pages that need that info
-    * dynamic routing for each dream, plan, and blog post 
+    * dynamic routing for each dream, plan, and blog post
 
   4. UX/UI
     * Include and modify bootstrap
